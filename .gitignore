@@ -1,0 +1,12 @@
+﻿node_modules/
+server/node_modules/
+dist/
+.env
+.env.*
+!.env.example
+uploads/
+output/
+outputs/
+temp/
+tmp/
+*.log
