@@ -881,7 +881,7 @@ function readSettings() {
   };
 }
 
-const API_BASE = (import.meta.env.VITE_API_BASE_URL || 'http://localhost:3001').replace(/\/$/, '');
+const API_BASE = (import.meta.env.VITE_API_BASE_URL || 'https://clipforge-ai-api-js4l.onrender.com').replace(/\/$/, '');
 
 async function renderOnBackend({ start, end, settings, onProgress }) {
   if (!sourceFile) throw new Error('No source video is loaded.');
